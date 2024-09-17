@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<title>Fakta Site - Hem</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+</head>
+<body>
+	<!-- BAKGRUND -->
+	<video id="background-video" autoplay loop muted>
+		<source src="media/background.mp4" type="video/mp4">
+	</video>
+
+	<!-- JAVASCRIPT -->
+	<script src="script.js"></script>
+
+	<!-- NAV -->
+	<div id="nav-wrapper" class="nav-wrapper">
+		<img src="./media/logo.png" alt="bmw logo" class="nav-logo" id="top-logga">
+		<div class="nav">
+			<nav>
+				<div id="nav-links" class="nav-links">
+					<a href="#" class="nav-link-hem">Hem</a>
+					<a href="#vadärbmw-header" class="nav-link">Om</a>
+					<a href="#bilar-header" class="nav-link">Bilar</a>
+					<a href="#motorcyklar-header" class="nav-link">Motorcyklar</a>
+					<a href="#kontakt-header" class="nav-link">Kontakt</a>
+				</div>
+				<hr>
+				<p class="nav-slogan">Sheer driving pleasure</p>
+				<script type="text/javascript" src="script.js"></script>
+			</nav>
+		</div>
+	</div>
+	
+	<!-- HUVUD DEL -->
+	<h1 class="index-header">Bayerische<br>Motoren<br>Werke</h1>
+
+	<!-- SCROLLA NER -->
+	<section id="skrolla-ner">
+		<a id="scroll-btn" href="#vadärbmw-header"></a>
+	</section>
+
+	<!-- OM BMW -->
+	<div class="ombmw-bakgrund">
+		<h2 id="vadärbmw-header">Vad är bmw?</h2>
+		<p class="vadärbmw-text">Bayerische Motoren Werke, mer känt som BMW, är en tysk biltillverkare som grundades 1916.
+			BMW
+			är en av de tre stora tyska biltillverkarna, tillsammans med Audi och Mercedes-Benz, som alla tre är bland de
+			fyra mest sålda lyxbilsmärkena i världen. BMW Group äger även Rolls-Royce Motor Cars. BMW är en förkortning av
+			Bayerische
+			Motoren Werke AG, som betyder ungefär "Bayerska motorverk".</p>
+		<hr>
+		<h2 class="bmwhistoria-header">Bmw's historia</h2>
+		<p class="bmwhistoria-text">BMW:s historia börjar den 7 mars 1916 då företaget Bayerischen Flugzeug Werke (BFW)
+			grundades. Detta datum ser BMW idag som företagets grundande. BMW var till en början delad mellan BFW och
+			Rapp-Motorenwerke. 1917 bytte Rapp-Motorenwerke namn till Bayerischen Motoren-Werke (BMW).<span id="punkter">...</span><span id="mer">
+				BMW grundades som flygmotortillverkare men kom efter första världskriget även att börja bygga motorcyklar
+				och några år senare personbilar. Under mellankrigstiden firade företaget flera framgångar på
+				tävlingsbanorna. Efter andra världskriget återuppbyggdes verksamheten men hade ekonomiska problem som vändes
+				under 1960-talet. Sedan 1960-talet har koncernen upplevt stora framgångar med sina modellserier med 3-serien
+				som storsäljare. BMW har stadigt ökat sin produktion och öppnat nya produktionsanläggningar. Nya fabriker
+				startades i bland annat USA och Eisenach men satsningen på brittiska Rover-koncernen visade sig vara en
+				katastrof. I dag har bilmärket BMW fortfarande hög status, kvalitet och pris och konkurrerar därmed på samma
+				prestigemarknad som Mercedes och Audi.</span></p>
+		<button onclick="myFunction()" id="läsmer">Läs mer</button>
+		<hr>
+		<h2 class="bmwframtid-header">Bmw's framtid</h2>
+		<p class="bmwframtid-text">BMW satsar på en spännande framtid med fokus på elektrifiering, autonom körning,
+			digitalisering och hållbarhet. Genom att expandera sitt utbud av elbilar och laddbara hybridmodeller strävar
+			företaget efter att minska koldioxidutsläppen. Samtidigt investerar de kraftigt i autonom körning och skapar en
+			sömlös digital upplevelse för kunderna. BMW kombinerar traditionellt hantverk med nyskapande teknologier för att
+			förbli en ledande aktör inom premiumfordonssektorn och forma framtiden för mobilitet.</p>
+	</div>
+
+	<!-- BILAR -->
+	<h2 id="bilar-header">Bmw's bilar</h2>
+
+	<div class="bilar-wrapper">
+		<div class="bilar-item">
+			<h3 id="1serie-header">1-serie</h3>
+			<p id="1serie-text">BMW 1-serien är en kompakt premiumbil som kombinerar smidig stadskörning med sportig prestanda. Den kompakta designen gör den idealisk för urbana miljöer, och den erbjuder samtidigt BMW:s karakteristiska kördynamik.</p>
+			<img id="1serie-img" class="bilar-img" src="media/bmw1series.jpg" alt="">
+		</div>
+
+		<div class="bilar-item">
+			<h3 id="2serie-header">2-serie</h3>
+			<p id="2serie-text">2-serien representerar en bred palett av modeller, inklusive coupéer, cabrioleter och aktiv tourer. Denna serie ger köparna möjlighet att välja en modell som passar deras specifika behov och önskemål.</p>
+			<img id="2serie-img" class="bilar-img" src="media/bmw2series.jpg" alt="">
+		</div>
+
+		<div class="bilar-item">
+			<h3 id="3serie-header">3-serie</h3>
+			<p id="3serie-text">BMW's 3-serien är en ikon inom premiumsegmentet, känt för sin sportiga prestanda och eleganta design. Den kombinerar körnöje med avancerade teknologier och är en referenspunkt för de som söker en dynamisk och komfortabel körupplevelse.</p>
+			<img id="3serie-img" class="bilar-img" src="media/bmw3series.jpg" alt="">
+		</div>
+
+		<div class="bilar-item">
+			<h3 id="4serie-header">4-serie</h3>
+			<p id="4serie-text">Med sin mer utmanande design och sportigare inställning är BMW 4-serien en kraftfullare version av 3-serien. Den finns som coupé, cabriolet och gran coupé och riktar sig till dem som söker extra stil och prestanda.</p>
+			<img id="4serie-img" class="bilar-img" src="media/bmw4series.jpg" alt="">
+		</div>
+
+		<div class="bilar-item">
+			<h3 id="5serie-header">5-serie</h3>
+			<p id="5serie-text">BMW 5-serien är en lyxig sedan som kombinerar elegans med avancerade teknologier och överlägsen komfort. Den är perfekt för dem som vill förena prestanda med en hög grad av lyx och utrustning.</p>
+			<img id="5-img" class="bilar-img" src="media/bmw5series.jpg" alt="">
+		</div>
+
+		<div class="bilar-item">
+			<h3 id="6serie-header">6-serie</h3>
+			<p id="6serie-text">6-serien är känt för sin överlägsna prestanda och elegans. Den finns som gran coupé, cabriolet och gran turismo och erbjuder en perfekt balans mellan komfort och sportighet.</p>
+			<img id="6serie-img" class="bilar-img" src="media/bmw6series.jpg" alt="">
+		</div>
+
+		<div class="bilar-item">
+			<h3 id="7serie-header">7-serie</h3>
+			<p id="7serie-text">BMW 7-serien representerar toppen av lyx och innovation inom BMW:s modellutbud. Den här lyxbilen har avancerade teknologier, förstklassig komfort och en imponerande kördynamik.</p>
+			<img id="7serie-img" class="bilar-img" src="media/bmw7series.jpg" alt="">
+		</div>
+
+		<div class="bilar-item">
+			<h3 id="8serie-header">8-serie</h3>
+			<p id="8serie-text">8-serien är en exklusiv modellserie som kombinerar lyx med sportig prestanda. Finns som coupé, cabriolet och gran coupé och riktar sig till dem som söker det ultimata inom design och prestanda.</p>
+			<img id="8serie-img" class="bilar-img" src="media/bmw8series.jpg" alt="">
+		</div>
+
+		<div class="bilar-item">
+			<h3 id="xserie-header">X-serie</h3>
+			<p id="xserie-text">BMW's X-serie representerar den framstående linjen av sportiga och lyxiga SUV:ar. Med imponerande terrängkörningsförmåga och lyxiga interiörer erbjuder X-serien en elegant kombination av prestanda och mångsidighet.</p>
+			<img id="xserie-img" class="bilar-img" src="media/bmwxseries.jpg" alt="">
+		</div>
+
+		<div class="bilar-item">
+			<h3 id="zserie-header">Z-serie</h3>
+			<p id="zserie-text">BMW's Z-serie representerar en passionerad linje av sportbilar som förenar stil och prestanda. Med modeller som Z4 Roadster erbjuder Z-serien en unik körglädje och öppen himmel-körning. Den aerodynamiska designen och kraftfulla motorerna gör varje modell till ett mästerverk på vägen.</p>
+			<img id="zserie-img" class="bilar-img" src="media/bmwzseries.jpg" alt="">
+		</div>
+	</div>
+
+	<!-- Motorcyklar -->
+	<h2 id="motorcyklar-header">Bmw's motorcyklar</h2>
+	<div class="motorcyklar-wrapper">
+		<div class="motorcyklar-item">
+			<h3>Sport Motorcyklar</h3>
+			<p>BMW är känt för att erbjuda högpresterande sportmotorcyklar som kombinerar kraft, teknologi och elegans. Deras S-serie, inklusive modeller som S1000RR och S1000R, har imponerat entusiaster världen över med avancerad teknik och exceptionell prestanda. Med innovativa funktioner som dynamiskt dämpningssystem och kraftfulla motorer har BMW skapat motorcyklar som ger en spännande och responsiv körupplevelse. Designen kombinerar aerodynamik med modern estetik, vilket resulterar i motorcyklar som inte bara presterar exceptionellt på vägen eller banan utan också sticker ut med sin unika stil. BMW:s engagemang för prestanda och innovation gör deras sportmotorcyklar till en eftertraktad favorit bland motorcykelentusiaster världen över.</p>
+		</div>
+
+		<div class="motorcyklar-item">
+			<h3>M-Sport Motorcyklar</h3>
+			<p>BMW:s M-serie av motorcyklar representerar en fusion av prestanda och elegans. M-serien, inklusive modeller som M1000RR och M1250GS, är skapade för att erbjuda en högoktanig körupplevelse. Med kraftfulla motorer och avancerad teknik levererar dessa motorcyklar imponerande acceleration och smidig hantering. BMW M-seriens design utstrålar sportighet och aggressivitet, samtidigt som den behåller den karakteristiska elegansen. Med funktioner som adaptivt fjädringssystem och avancerade elektroniska assistanssystem erbjuder M-serien en sofistikerad körupplevelse. BMW M-serien är en perfekt kombination av prestanda och stil, vilket gör varje åktur till en minnesvärd upplevelse för motorcykelentusiaster som uppskattar kvalitet och teknik.</p>
+		</div>
+
+		<div class="motorcyklar-item">
+			<h3>Touring Motorcyklar</h3>
+			<p>BMW:s touring-motorcyklar representerar komfort och prestanda för de långa vägarna. Med modeller som R1250RT och K1600GT erbjuder BMW en lyxig körupplevelse för långdistansresor. Dessa motorcyklar är utrustade med kraftfulla motorer och avancerad elektronik, vilket ger en smidig och kraftfull acceleration. BMW:s touring-motorcyklar sätter fokus på komfort med bekväma sadlar, effektiv vindskydd och ergonomisk design för långa dagar på vägen. Teknikfunktioner som adaptiv farthållare och navigationsenheter integrerade i instrumentbrädan gör varje resa mer bekväm och problemfri. Med en elegant och strömlinjeformad design levererar BMW:s touring-motorcyklar en kombination av prestanda och långväga komfort för de som älskar att utforska vägarna på två hjul.</p>
+		</div>
+
+		<div class="motorcyklar-item">
+			<h3>Roadster Motorcyklar</h3>
+			<p>BMW:s roadster-motorcyklar är skapade för dem som söker ren och kraftfull körupplevelse. Modeller som R1250R och S1000R är designade med fokus på dynamik och responsivitet. Deras kraftfulla motorer och lätta konstruktion ger en imponerande acceleration och smidig hantering. Roadster-serien kombinerar prestanda med en avskalad design, vilket ger en minimalistisk och sportig estetik. Med naked-bike-stilen framhävs motorns råa kraft och teknologin för att skapa en intensiv körupplevelse. BMW:s roadster-motorcyklar är idealiska för dem som älskar att känna vinden och vägen under sig, och de erbjuder en perfekt balans mellan prestanda och ren körnöje.</p>
+		</div>
+
+		<div class="motorcyklar-item">
+			<h3>Heritage Motorcyklar</h3>
+			<p>BMW:s heritage-motorcyklar är en hyllning till företagets rika motorcykelarv. Med modeller som R nineT-serien kombinerar BMW modern teknik med en klassisk designinspiration. Dessa motorcyklar är utformade för att återspegla den tidlösa stilen från tidigare generationer, samtidigt som de integrerar avancerad teknologi för att möta dagens krav. BMW Heritage-motorcyklar ger förare en autentisk upplevelse av motorcykelkultur med sina retroinspirerade detaljer och karaktäristiska linjer. Från tankformen till de dubbla avgasrören strålar varje detalj av nostalgisk charm. Heritage-serien hyllar BMW:s långa historia och tillhandahåller en unik körupplevelse för dem som värdesätter tradition och stil på vägen.</p>
+		</div>
+
+		<div class="motorcyklar-item">
+			<h3>Äventyrs Motorcyklar</h3>
+			<p>BMW:s äventyrsmotorcyklar representerar kraft och mångsidighet för de som söker spänning på och utanför vägen. Modeller som R1250GS och F850GS är utformade för att hantera olika terränger och erbjuder robust prestanda. Dessa motorcyklar är utrustade med avancerade fjädringssystem och kraftfulla motorer för att tackla utmanande terräng med lätthet. BMW:s äventyrsmotorcyklar kombinerar touring-förmågan med offroad-prestanda, vilket gör dem till en idealisk följeslagare för långa resor och äventyr. Med bekväma sadlar, effektivt vindskydd och smarta funktioner som flera körlägen och elektroniska assistanssystem ger BMW:s äventyrsmotorcyklar en pålitlig och kraftfull körupplevelse, oavsett om du är på landsvägen eller utforskar okända stigar.</p>
+		</div>
+
+		<div class="motorcyklar-item">
+			<h3>Urban Mobility Motorcyklar</h3>
+			<p>BMW:s urban mobility-motorcyklar är skapade för att möta kraven i moderna stadsmiljöer. Modeller som C400X och G310GS erbjuder smidighet och effektivitet för urbant pendlingsliv. Dessa motorcyklar har kompakt design och lättmanövrerade egenskaper, vilket gör dem idealiska för trafikerade stadsgator. BMW:s fokus på hållbarhet och miljömedvetenhet återspeglas i deras urban mobility-serie med bränsleeffektiva motorer och innovativa teknologier. Integrerade smarta funktioner som navigationsstöd och anslutningsmöjligheter ökar användbarheten i stadsmiljöer. BMW:s urban mobility-motorcyklar är utformade för dem som söker bekvämlighet och flexibilitet i sina dagliga förflyttningar och representerar en modern syn på stadsresor på två hjul.</p>
+		</div>
+	</div>
+
+	<!-- Kontakt -->
+	<div class="kontakt-wrapper">
+		<h2 id="kontakt-header">Kontakta oss</h2>
+		<form action="mailto:lucas.malmbergfransson@elev.ga.ntig.se">
+			<label for="namn">Namn:</label><br>
+			<input type="text" id="namn" name="namn" placeholder="Ditt namn"><br>
+			<label for="mail">Din mail:</label><br>
+			<input type="email" id="mail" name="mail" placeholder="Din mail"><br><br>
+			<label for="ärende">Ärende:</label><br>
+			<input type="text" id="ärende" name="ärende" placeholder="Ärende"><br><br>
+			<input type="submit" value="Skicka">
+		</form>
+	</div>
+</body>
+</html>
