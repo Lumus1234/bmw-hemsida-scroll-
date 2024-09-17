@@ -1,0 +1,300 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+
+/* BAKGRUND */
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+/* TAGGAR */
+a:link,
+a:active,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+hr {
+    background-color: white;
+    color: white;
+    width: 60vw;
+    height: 1px;
+}
+
+/* NAV */
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.nav-logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 25px;
+}
+
+.nav-link-hem {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.nav-slogan {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+
+/* HUVUD DEL */
+.index-header {
+    letter-spacing: 3px;
+    font-size: 40px;
+    margin-left: 11.7%;
+    margin-top: 8%;
+    height: 60vh;
+    cursor: default;
+}
+
+/* SCROLLA NER */
+a#scroll-btn {
+	position: absolute;
+	height: 40px;
+	width: 20px;
+	border: 3px solid white;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 50px;
+	border-radius: 3em;
+}
+
+a#scroll-btn:before {
+	position: absolute;
+	content: "";
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 3px;
+	height: 14px;
+	width: 14px;
+	background-color: white;
+	border-radius: 50%;
+	animation: move-down 2s infinite;
+}
+
+@keyframes move-down {
+	80% {
+		opacity: 0.5;
+	}
+	100% {
+		transform: translateY(18px);
+		opacity: 0;
+	}
+}
+
+/* OM BMW */
+.ombmw-bakgrund {
+    background-color: rgb(3, 2, 35);
+    max-width: 100%;
+    padding: 10px;
+}
+
+#vadärbmw-header {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.vadärbmw-text {
+    font-size: 20px;
+    margin-left: 11.7vw;
+    margin-right: 11.7vw;
+}
+
+.bmwhistoria-header {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.bmwhistoria-text {
+    font-size: 20px;
+    margin-left: 11.7%;
+    margin-right: 11.7%;
+}
+
+#mer {
+    display: none;
+}
+
+button {
+    background-color: #0166B1;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 11.7%;
+    cursor: pointer;
+
+}
+
+.bmwframtid-header {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.bmwframtid-text {
+    font-size: 20px;
+    margin-left: 11.7%;
+    margin-right: 11.7%;
+}
+
+/* BILAR */
+.bilar-bakgrund {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#bilar-header {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.bilar-wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: repeat(5, 40%);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.bilar-img {
+    max-width: 38vw;
+    max-height: 20vw;
+}
+
+.bilar-item {
+    background-color: rgba(1, 1, 1, 0.6);
+    max-width: 40vw;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.bilar-item img {
+    border-radius: 10px;
+}
+
+/* MOTORCYKLAR */
+.motorcyklar-bakgrund {
+    position: fixed;
+    z-index: -1;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#motorcyklar-header {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.motorcyklar-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.motorcyklar-item {
+    background-color: rgba(1, 1, 1, 0.6);
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* KONTAKT */
+.kontakt-bakgrund {
+    position: fixed;
+    z-index: -1;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.kontakt-wrapper {
+    background-color: rgb(3, 2, 35);
+    padding: 10px;
+}
+
+#kontakt-header {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+label {
+    margin-left: 10px;
+}
